@@ -1,0 +1,19 @@
+{
+  "propertyEditors": [
+    {
+      "alias": "MLImageTagEditor",
+      "name": "ML Image Tag Editor",
+      "icon": "icon-smiley-inverted",
+      "group": "media",
+      "editor": {
+        "view": "~/App_Plugins/MLMediaLibrary/html/ImageTagEditor.html",
+        "hideLabel": true,
+        "valueType": "JSON"
+      }
+    }
+  ],
+  "gridEditors": [],
+  "parameterEditors": [],
+  "javascript": [ "~/App_Plugins/MLMediaLibrary/js/ImageTagEditor.controller.js" ],
+  "css": [ "~/App_Plugins/MLMediaLibrary/css/ImageTagEditor.styles.css" ]
+}
